@@ -1,0 +1,1 @@
+/usr/local/eosio.cdt/bin/eosio-ld  CMakeFiles/kkktoken.wasm.dir/kkktoken.cpp.o -o kkktoken.wasm 

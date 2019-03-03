@@ -1,0 +1,3 @@
+/home/gyl/eosio.cdt/contracts/kkkbattle/build/CMakeFiles/rebuild_cache.dir
+/home/gyl/eosio.cdt/contracts/kkkbattle/build/CMakeFiles/kkkbattle.wasm.dir
+/home/gyl/eosio.cdt/contracts/kkkbattle/build/CMakeFiles/edit_cache.dir

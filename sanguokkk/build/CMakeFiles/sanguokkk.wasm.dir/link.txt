@@ -1,0 +1,1 @@
+/usr/local/eosio.cdt/bin/eosio-ld  CMakeFiles/sanguokkk.wasm.dir/sanguokkk.cpp.o -o sanguokkk.wasm 

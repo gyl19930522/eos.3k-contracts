@@ -1,0 +1,3 @@
+/home/gyl/eosio.cdt/contracts/kkktoken/build/CMakeFiles/rebuild_cache.dir
+/home/gyl/eosio.cdt/contracts/kkktoken/build/CMakeFiles/kkktoken.wasm.dir
+/home/gyl/eosio.cdt/contracts/kkktoken/build/CMakeFiles/edit_cache.dir

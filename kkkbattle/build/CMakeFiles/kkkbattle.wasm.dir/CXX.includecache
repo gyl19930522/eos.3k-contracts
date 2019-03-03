@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gyl/eosio.cdt/contracts/kkkbattle/eosio.token.hpp
+eosiolib/asset.hpp
+-
+eosiolib/eosio.hpp
+-
+string
+-
+
+/home/gyl/eosio.cdt/contracts/kkkbattle/kkkbattle.cpp
+kkkbattle.hpp
+/home/gyl/eosio.cdt/contracts/kkkbattle/kkkbattle.hpp
+
+/home/gyl/eosio.cdt/contracts/kkkbattle/kkkbattle.hpp
+eosiolib/asset.hpp
+-
+eosiolib/time.hpp
+-
+eosiolib/eosio.hpp
+-
+eosiolib/transaction.hpp
+-
+string
+-
+vector
+-
+eosio.token.hpp
+/home/gyl/eosio.cdt/contracts/kkkbattle/eosio.token.hpp
+kkktoken.hpp
+/home/gyl/eosio.cdt/contracts/kkkbattle/kkktoken.hpp
+
+/home/gyl/eosio.cdt/contracts/kkkbattle/kkktoken.hpp
+eosiolib/asset.hpp
+-
+eosiolib/eosio.hpp
+-
+string
+-
+

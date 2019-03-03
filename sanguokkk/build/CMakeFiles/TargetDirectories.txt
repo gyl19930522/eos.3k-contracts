@@ -1,0 +1,3 @@
+/home/gyl/eosio.cdt/contracts/sanguokkk/build/CMakeFiles/rebuild_cache.dir
+/home/gyl/eosio.cdt/contracts/sanguokkk/build/CMakeFiles/sanguokkk.wasm.dir
+/home/gyl/eosio.cdt/contracts/sanguokkk/build/CMakeFiles/edit_cache.dir

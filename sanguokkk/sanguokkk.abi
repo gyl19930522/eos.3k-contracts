@@ -1,0 +1,325 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Wed Feb 27 21:29:22 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "account",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                },
+                {
+                    "name": "account_status",
+                    "type": "bool"
+                },
+                {
+                    "name": "redeem_status",
+                    "type": "bool"
+                },
+                {
+                    "name": "deposit_balance",
+                    "type": "asset"
+                },
+                {
+                    "name": "deposit_record",
+                    "type": "record[]"
+                },
+                {
+                    "name": "weekly_profit_balance",
+                    "type": "asset"
+                },
+                {
+                    "name": "profit_balance",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "dailyprofit",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "deferredeem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "frzaccount",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "gameasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "game_contract",
+                    "type": "name"
+                },
+                {
+                    "name": "game_memo",
+                    "type": "string"
+                },
+                {
+                    "name": "login_rewards",
+                    "type": "asset"
+                },
+                {
+                    "name": "invite_rewards",
+                    "type": "asset"
+                },
+                {
+                    "name": "game_profit",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "gamelogin",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                },
+                {
+                    "name": "game",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "globalasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "max_crowdfunding",
+                    "type": "asset"
+                },
+                {
+                    "name": "crowdfunding",
+                    "type": "asset"
+                },
+                {
+                    "name": "kkk_deposit",
+                    "type": "asset"
+                },
+                {
+                    "name": "eos_profit",
+                    "type": "asset"
+                },
+                {
+                    "name": "daily_profit_stamp",
+                    "type": "asset"
+                },
+                {
+                    "name": "daily_time_stamp",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "weekly_time_stamp",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "profitshare",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "pushnewgame",
+            "base": "",
+            "fields": [
+                {
+                    "name": "gamecontract",
+                    "type": "name"
+                },
+                {
+                    "name": "login_rewards",
+                    "type": "asset"
+                },
+                {
+                    "name": "invite_rewards",
+                    "type": "asset"
+                },
+                {
+                    "name": "gamememo",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "rclaccount",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "record",
+            "base": "",
+            "fields": [
+                {
+                    "name": "redeem_time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "redeem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "setgblasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "tablereset",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "withdraw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "player",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "dailyprofit",
+            "type": "dailyprofit",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deferredeem",
+            "type": "deferredeem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "frzaccount",
+            "type": "frzaccount",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "gamelogin",
+            "type": "gamelogin",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "profitshare",
+            "type": "profitshare",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "pushnewgame",
+            "type": "pushnewgame",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rclaccount",
+            "type": "rclaccount",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "redeem",
+            "type": "redeem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setgblasset",
+            "type": "setgblasset",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "tablereset",
+            "type": "tablereset",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdraw",
+            "type": "withdraw",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "account",
+            "type": "account",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "gameasset",
+            "type": "gameasset",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "globalasset",
+            "type": "globalasset",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
